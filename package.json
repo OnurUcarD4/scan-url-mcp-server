@@ -1,0 +1,19 @@
+{
+  "name": "scan-url",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol Scan Url Tool",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "scan-url": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "inspector": "npx @modelcontextprotocol/inspector index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0"
+  }
+}
